@@ -21,6 +21,10 @@ $ asmp1 output.asm output.bin
 $ neander output.bin
 ```
 
+## ASSEMBLER
+
+Para ter mais detalhes sobre o assembler, entre no README.md interno dentro de '/srcAssembler'
+
 
 ## Programa LPN
 

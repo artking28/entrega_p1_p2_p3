@@ -67,7 +67,8 @@ um numero nem um underline. Segue a criação de quatro labels abaixo:
   SET m2      // Writes value from accumulator to second byte.
 
 ### 3. `CPY` - **COPY**
-- Copia o valor de um acumulador ou literal para outro acumulador ou memória.
+- Copia o valor de uma celula de memoria ou literal para outra celula.
+- Esta operação nao afeta o valor do acumulador
 - **Format**: `CPY <MEMORY_ADDRESS> <MEMORY_ADDRESS | NUMBER_LITERAL>`
 - **Exemplo de uso**:
 
@@ -146,7 +147,7 @@ um numero nem um underline. Segue a criação de quatro labels abaixo:
 - **Exemplo de uso**:
 
   ```asm
-  SUB m1 // Aplica a operação 'xor' entre o conteudo de m1 e o acumulador. Salva no acumulador
+  SUB m1 // Aplica a operação 'sub' entre o conteudo de m1 e o acumulador. Salva no acumulador
 
 ### 14. `JMP` - **Jump**
 - Faz o salto para a 'label' especificado.
