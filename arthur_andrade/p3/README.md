@@ -1,4 +1,4 @@
-# P3 - Brainfuck - Arthur Andrade
+**# P3 - Brainfuck - Arthur Andrade**
 
 Este projeto é parte da P3 da disciplina de Compiladores. O objetivo é implementar um compilador (`bfc`) e um interpretador (`bfe`) para a linguagem Brainfuck.
 
